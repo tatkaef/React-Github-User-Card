@@ -1,0 +1,10 @@
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.app {
+  background-color: #b22222;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
