@@ -15,7 +15,7 @@ class Followers extends React.Component {
             <img src={person.avatar_url} />
             <p>{person.name}</p>
             <p>{person.location}</p>
-            <p>{person.bio}</p>
+            {/* <p>{person.bio}</p> */}
           </div>
         ))}
       </div>

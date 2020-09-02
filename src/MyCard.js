@@ -12,7 +12,7 @@ class MyCard extends React.Component {
         <img src={this.props.userdata.avatar_url} />
         <p>{this.props.userdata.name}</p>
         <p>{this.props.userdata.location}</p>
-        <p>{this.props.userdata.bio}</p>
+        {/* <p>{this.props.userdata.bio}</p> */}
       </div>
     );
   }

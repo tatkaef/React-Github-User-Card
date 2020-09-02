@@ -34,12 +34,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        {/* <AppdDiv> */}
-        <h1>Github user</h1>
+        <h1>Github user:</h1>
         <MyCard userdata={this.state.userdata} />
         <h1>Github followers</h1>
         <Followers followersdata={this.state.followersdata} />
-        {/* </AppdDiv> */}
       </div>
     );
   }
